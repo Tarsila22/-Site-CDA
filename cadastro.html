@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<hend>
+<meta charset="UTF-8">
+<title>Cadastro - CDA</title>
+</hend>
+<body>
+	<header>
+		<h1> CDA- Casa de Adolescentes</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Início</a></li>
+			<li><a href="projetos.html">Projetos</a></li>
+			<li><a href="cadastro.html">Participe</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2> Faça parte</h2>
+		<p> Faça parte da nossa iniciativa e ajude a transformar vidas. Preencha o formulário abaixo para se cadastrar e colaborar com as ações da CDA</P>
+		<form>
+			<fieldset>
+				<legend> Dados pessoais</legend>
+					<br>
+						<label for="nome">Nome completo:</label>
+						<input type="text" id="nome" name="nome" required>
+					</br>
+					<br>
+						<label for="cpf">CPF:</label>
+						<input type="text" id="cpf" name="cpf" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00" maxlength="14" required>
+					</br>
+					<br>
+							<label for="telefone">Telefone:</label>
+							<input type="tel" id="telefone" name="telefone" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(00) 00000-0000" maxlength="15" required>
+					</br>
+			</fieldset>
+			<fieldset>
+					<br>
+							<label for="endereco">Endereço:</label>
+							<input type="text" id="endereco" name="endereco" required>
+					</br>
+					<br>
+						<label for="cep">CEP:</label>
+						<input type="text" id="cep" name="cep" pattern="[9-0]{5}-[0-9]{3}" maxlength="9" required>
+					</br>
+			</fieldset>
+					<br>
+						<button type="submit">Cadastrar</button>
+					</br>
+	
+	
+	</main>
